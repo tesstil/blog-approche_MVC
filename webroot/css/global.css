@@ -1,0 +1,19 @@
+.paginate {
+    display: inline-flex;
+}
+
+.paginate li {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.paginate a {
+	padding: 5px 10px;
+	display: block;
+}
+
+.paginate li:hover {
+    background-color: #eee;
+}
